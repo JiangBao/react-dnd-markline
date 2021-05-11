@@ -1,0 +1,22 @@
+.mark-line {
+  height: 100%;
+}
+
+.mark-line .line {
+  position: absolute;
+  z-index: 1000;
+  visibility: hidden;
+}
+
+.xline {
+  width: 100%;
+  border-bottom: 1px dashed #2ab1e8;
+}
+.yline {
+  height: 100%;
+  border-left: 1px dashed #2ab1e8;
+}
+
+.line.isVisible {
+  visibility: visible;
+}
